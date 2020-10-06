@@ -1,0 +1,20 @@
+.fv-dashboard-toggle-icon {
+  float: right;
+  cursor: pointer;
+}
+
+.fv-dashboard-settings-side-up, .fv-dashboard-settings-side-down {
+  /*max-height: 0;*/
+  -webkit-transition: max-height 0.5s ease-in-out;
+  -moz-transition: max-height 0.5s ease-in-out;
+  -o-transition: max-height 0.5s ease-in-out;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.fv-dashboard-settings-side-down {
+  max-height: 12em;
+}
+
+.fv-dashboard-setting-none {
+  display: none;
+}
